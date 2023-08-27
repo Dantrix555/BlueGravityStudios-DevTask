@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: cc80bdc5c7ece6b44b73d09640612837
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShortShirtMale_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 990
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a320de8889bae034cb0a68cbb99fb074
+      internalID: 831167965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 988
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20e8cbc93e0d2e459b9952987096af1
+      internalID: -299936649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 938
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dcd43f2b4936c4d820f9bfd29bd489
+      internalID: 178857516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 926
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a84f4e06614594a9d0394acd040ea8
+      internalID: 703277030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 928
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eecb82452778bf4ca42cba663b2ea8e
+      internalID: 661930353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 862
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4127169de4931459c403c07532a88f
+      internalID: 1510280369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 868
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32055619a43d72541bda782da91cdc96
+      internalID: 206836258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 858
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d8fdd9c1e8974f80494f18cee13bf
+      internalID: 666430644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_47
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 801
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d300003a5970c54e908dd87f9383b00
+      internalID: -1433585162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_48
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 797
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168c9c99b8e2db448524476c9d381eb
+      internalID: 70116310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 799
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f1714d32095eb44bd64883a1d1ec23
+      internalID: -764265513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_50
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 799
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b5d243673f1249bbd38b836375b4b
+      internalID: -195832804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_51
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 803
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d951cf3ef396b0488cd08ee84135d8b
+      internalID: 1605503438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_60
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 798
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d904b09d5d5044f8ce48b116a376ec
+      internalID: -401831731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 798
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28b61f5a7b9c94b899a86003feaf01
+      internalID: -1765257933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_62
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 798
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244119240f91434e9926e909b2218c2
+      internalID: -1703608380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 734
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e59ad2ac0e0e4aa2e2f55363550a0
+      internalID: 1059569849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_64
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 734
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6955e5d3b66f4419717a2e3826f786
+      internalID: 1612975208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_65
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 734
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfeb2c5be53dfe4c89330edc7c0761e
+      internalID: -1526634043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 734
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db25c6680fa8804409e4b23859ab581e
+      internalID: -2070069484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_67
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 733
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666b6ae2909613d4d8ce09b1a67c7cf6
+      internalID: -1211380460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_68
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 733
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf799cbc833bd2499ea9c0236b04060
+      internalID: -179963098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_69
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 738
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b8b0b00d8527d428fb4553da0b12a4
+      internalID: 1825508201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_70
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 738
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97af8b2417e6cc94cb1c0744804d09df
+      internalID: 1622787088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtMale_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 999
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a27800f709b61144a092ae3307e9866
+      internalID: -749394815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ShortShirtMale_84: -1346907184
+      ShortShirtMale_109: 864312460
+      ShortShirtMale_1: -299936649
+      ShortShirtMale_68: -179963098
+      ShortShirtMale_26: 631303451
+      ShortShirtMale_95: 1386919814
+      ShortShirtMale_104: -2110453574
+      ShortShirtMale_163: -328390332
+      ShortShirtMale_61: -1765257933
+      ShortShirtMale_192: -789899796
+      ShortShirtMale_7: -1082684064
+      ShortShirtMale_27: 686092793
+      ShortShirtMale_21: -1582298567
+      ShortShirtMale_71: 1873692002
+      ShortShirtMale_136: -1200407989
+      ShortShirtMale_173: 781222364
+      ShortShirtMale_49: -764265513
+      ShortShirtMale_94: -1971948885
+      ShortShirtMale_178: 1323606023
+      ShortShirtMale_38: -292644360
+      ShortShirtMale_131: 1863846807
+      ShortShirtMale_41: 2142030721
+      ShortShirtMale_30: 602984856
+      ShortShirtMale_34: -217164626
+      ShortShirtMale_145: -306365287
+      ShortShirtMale_23: -599909027
+      ShortShirtMale_112: -1481582582
+      ShortShirtMale_154: 802979071
+      ShortShirtMale_127: -151381360
+      ShortShirtMale_17: 703277030
+      ShortShirtMale_33: -1072536527
+      ShortShirtMale_45: 1151751307
+      ShortShirtMale_89: 1908971849
+      ShortShirtMale_59: 1692941098
+      ShortShirtMale_110: -954173790
+      ShortShirtMale_150: -1412336541
+      ShortShirtMale_117: -1492396953
+      ShortShirtMale_55: -1204796375
+      ShortShirtMale_162: 1811754659
+      ShortShirtMale_172: -803143995
+      ShortShirtMale_179: 887546098
+      ShortShirtMale_184: -384672420
+      ShortShirtMale_74: -710523180
+      ShortShirtMale_25: -543715600
+      ShortShirtMale_82: 1759521877
+      ShortShirtMale_93: 1270976304
+      ShortShirtMale_149: -669539305
+      ShortShirtMale_103: -1433133910
+      ShortShirtMale_65: -1526634043
+      ShortShirtMale_81: -1153598296
+      ShortShirtMale_18: 661930353
+      ShortShirtMale_175: -1921450472
+      ShortShirtMale_137: 1538941684
+      ShortShirtMale_85: 1068273353
+      ShortShirtMale_116: -1358157568
+      ShortShirtMale_138: 1914541116
+      ShortShirtMale_20: 1766727492
+      ShortShirtMale_78: -1360888413
+      ShortShirtMale_28: -902799680
+      ShortShirtMale_161: 1196266738
+      ShortShirtMale_123: 1638809708
+      ShortShirtMale_14: 1149548477
+      ShortShirtMale_151: -928309219
+      ShortShirtMale_183: -1819224720
+      ShortShirtMale_177: 1065217487
+      ShortShirtMale_166: 933834193
+      ShortShirtMale_40: 1032543743
+      ShortShirtMale_111: 1641944408
+      ShortShirtMale_19: -749394815
+      ShortShirtMale_146: -2109242358
+      ShortShirtMale_185: -979055466
+      ShortShirtMale_72: 1817685357
+      ShortShirtMale_120: -1818110039
+      ShortShirtMale_129: -1575927407
+      ShortShirtMale_46: -42847307
+      ShortShirtMale_122: 1611547097
+      ShortShirtMale_144: -1651381769
+      ShortShirtMale_140: 1916577571
+      ShortShirtMale_142: 1077054844
+      ShortShirtMale_80: -1799633251
+      ShortShirtMale_158: -2016292939
+      ShortShirtMale_62: -1703608380
+      ShortShirtMale_106: 1526729084
+      ShortShirtMale_16: 876570709
+      ShortShirtMale_108: 1513508264
+      ShortShirtMale_153: 2060577183
+      ShortShirtMale_58: 297057985
+      ShortShirtMale_91: -334126131
+      ShortShirtMale_99: 285018316
+      ShortShirtMale_168: -1785228596
+      ShortShirtMale_56: -556929368
+      ShortShirtMale_98: -1723753352
+      ShortShirtMale_186: 1977930245
+      ShortShirtMale_133: -109460207
+      ShortShirtMale_100: -1173865020
+      ShortShirtMale_119: -785995002
+      ShortShirtMale_11: 699762308
+      ShortShirtMale_2: -292639228
+      ShortShirtMale_113: 252641285
+      ShortShirtMale_6: 674138339
+      ShortShirtMale_126: -1049378538
+      ShortShirtMale_130: 375254606
+      ShortShirtMale_67: -1211380460
+      ShortShirtMale_189: -351397556
+      ShortShirtMale_31: 1510280369
+      ShortShirtMale_57: 498920898
+      ShortShirtMale_64: 1612975208
+      ShortShirtMale_181: -1815774264
+      ShortShirtMale_37: -1786537660
+      ShortShirtMale_29: 601997324
+      ShortShirtMale_69: 1825508201
+      ShortShirtMale_101: 1323485207
+      ShortShirtMale_114: -113550359
+      ShortShirtMale_160: 886356094
+      ShortShirtMale_87: 1406316100
+      ShortShirtMale_170: -817416537
+      ShortShirtMale_70: 1622787088
+      ShortShirtMale_86: 153878809
+      ShortShirtMale_187: -878373150
+      ShortShirtMale_24: 150346648
+      ShortShirtMale_143: 491479135
+      ShortShirtMale_90: 656795674
+      ShortShirtMale_12: 509633550
+      ShortShirtMale_5: -1479341539
+      ShortShirtMale_97: -784354098
+      ShortShirtMale_35: -965033691
+      ShortShirtMale_124: 37542535
+      ShortShirtMale_171: -1907473935
+      ShortShirtMale_165: -736807789
+      ShortShirtMale_44: 1072059236
+      ShortShirtMale_115: 486064990
+      ShortShirtMale_191: -1270919131
+      ShortShirtMale_48: 70116310
+      ShortShirtMale_164: -1245245006
+      ShortShirtMale_15: 178857516
+      ShortShirtMale_190: -2036467873
+      ShortShirtMale_43: 666430644
+      ShortShirtMale_118: -1550348471
+      ShortShirtMale_159: -1043186860
+      ShortShirtMale_63: 1059569849
+      ShortShirtMale_66: -2070069484
+      ShortShirtMale_156: -2004250921
+      ShortShirtMale_53: -440153443
+      ShortShirtMale_76: 1638844836
+      ShortShirtMale_52: -1574564302
+      ShortShirtMale_147: -1070211799
+      ShortShirtMale_39: -177832910
+      ShortShirtMale_128: 730436221
+      ShortShirtMale_50: -195832804
+      ShortShirtMale_36: 1104445324
+      ShortShirtMale_174: 1486378573
+      ShortShirtMale_9: 1176965338
+      ShortShirtMale_135: 812533181
+      ShortShirtMale_182: 817776299
+      ShortShirtMale_10: 1405163698
+      ShortShirtMale_0: 831167965
+      ShortShirtMale_148: 393452944
+      ShortShirtMale_125: -2003049939
+      ShortShirtMale_88: 1236674145
+      ShortShirtMale_22: 1797790912
+      ShortShirtMale_32: 206836258
+      ShortShirtMale_176: -1558221624
+      ShortShirtMale_155: 1033469020
+      ShortShirtMale_157: 20990434
+      ShortShirtMale_141: -1849808697
+      ShortShirtMale_4: 1099261247
+      ShortShirtMale_79: -946895174
+      ShortShirtMale_105: -1130785227
+      ShortShirtMale_75: -2073106642
+      ShortShirtMale_180: -1790677658
+      ShortShirtMale_188: 947362257
+      ShortShirtMale_83: 1934611455
+      ShortShirtMale_42: 96459044
+      ShortShirtMale_92: 1973562562
+      ShortShirtMale_13: -19263053
+      ShortShirtMale_3: -539926175
+      ShortShirtMale_51: 1605503438
+      ShortShirtMale_73: -1783986565
+      ShortShirtMale_8: -1398043609
+      ShortShirtMale_107: -670977942
+      ShortShirtMale_152: 1048288374
+      ShortShirtMale_54: -9285020
+      ShortShirtMale_102: 1268863934
+      ShortShirtMale_132: 287039477
+      ShortShirtMale_139: 2028522935
+      ShortShirtMale_121: 414626410
+      ShortShirtMale_96: -1926399943
+      ShortShirtMale_167: 589023358
+      ShortShirtMale_60: -401831731
+      ShortShirtMale_169: -1540954712
+      ShortShirtMale_77: 568891232
+      ShortShirtMale_47: -1433585162
+      ShortShirtMale_134: 955817445
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

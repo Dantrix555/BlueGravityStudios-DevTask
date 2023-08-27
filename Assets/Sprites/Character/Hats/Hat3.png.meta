@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 2d0a7c3486425594283c73c4e4169543
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1002
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4cb67aa2b8625449cbb702b577d713
+      internalID: -492683594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 995
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bed5d3baa3bb7448dd41d3e799b55b
+      internalID: -1198804731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1004
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d209b4d3723614c8ba3a64a383957a
+      internalID: 1071451103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 938
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13fb04eb7d561b4882d457e52ace52c
+      internalID: 1098617308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 944
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b609675a09364d3459ef4a5df161cfb2
+      internalID: -36135887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 935
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d91713264080c549acf2cc63db980da
+      internalID: 1424543795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 875
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8637e1f9fcf8418fae355203b8dc0
+      internalID: -267166746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_33
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 879
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d1ca8331356bc41819bdffed5e6520
+      internalID: 442442383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 867
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97337bfbabef80a4fafc955e88314ede
+      internalID: 2087516420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 809
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062e6ff7b1c5e3428da3de3f2bc3053
+      internalID: -1352802708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 810
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c7976442cd97d4583e2c3b2e4922bb
+      internalID: 358026433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 810
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e20818b488d73d4e883513f4aebba40
+      internalID: 1852948716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_51
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 812
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24ec4fb2bfaf94d861e5640eff6eac
+      internalID: 1212254675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_52
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 809
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a3059de50b00c47b036d014437f432
+      internalID: -479873893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_53
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 810
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efce4c08dc6c05459146c7023650190
+      internalID: -863967663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_54
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 810
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b990da385170184b9fd6f565bf9d0c7
+      internalID: 2028955586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 812
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c9fd2da17262040b0687172873ac39
+      internalID: 536165647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 747
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68916ea272d56541a42b1f60541cd02
+      internalID: -662917976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 747
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5861844fcffdb54387f44ec99d10514
+      internalID: 1498697575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 746
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b81b4bf3b30c9b4aba60b01001d0d11
+      internalID: 74060636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_67
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 747
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8b7a283588ab545bb3cf5b4f20575e
+      internalID: -213429125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_68
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 747
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3c979b88311d64a8bd2bcb77623608
+      internalID: 695100281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_69
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 746
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1d5e48e70e47b47808a793e6394c1c
+      internalID: 721390762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_70
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 750
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f8b25a4c41a8d4586b8a0f3044a814
+      internalID: 2103560372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_14head_cowboyhat_00d_71
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 750
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cff099744d11b4c8f180bb994dc4be
+      internalID: -1437411107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fbas_14head_cowboyhat_00d_118: 1299187720
+      fbas_14head_cowboyhat_00d_26: -139009016
+      fbas_14head_cowboyhat_00d_87: 538447888
+      fbas_14head_cowboyhat_00d_95: 1875801385
+      fbas_14head_cowboyhat_00d_111: 191193849
+      fbas_14head_cowboyhat_00d_4: 657398435
+      fbas_14head_cowboyhat_00d_3: 352344721
+      fbas_14head_cowboyhat_00d_82: 16726414
+      fbas_14head_cowboyhat_00d_78: -1831924980
+      fbas_14head_cowboyhat_00d_172: 77468578
+      fbas_14head_cowboyhat_00d_188: -354604521
+      fbas_14head_cowboyhat_00d_116: -990126109
+      fbas_14head_cowboyhat_00d_108: 1331359417
+      fbas_14head_cowboyhat_00d_147: -1366771416
+      fbas_14head_cowboyhat_00d_83: 289946345
+      fbas_14head_cowboyhat_00d_100: -1596287600
+      fbas_14head_cowboyhat_00d_11: 2132228017
+      fbas_14head_cowboyhat_00d_65: 1498697575
+      fbas_14head_cowboyhat_00d_24: -411790905
+      fbas_14head_cowboyhat_00d_84: -588313560
+      fbas_14head_cowboyhat_00d_14: -1559633382
+      fbas_14head_cowboyhat_00d_74: 1100027360
+      fbas_14head_cowboyhat_00d_73: -1175930694
+      fbas_14head_cowboyhat_00d_185: 1991682658
+      fbas_14head_cowboyhat_00d_31: 1839943849
+      fbas_14head_cowboyhat_00d_175: 799173772
+      fbas_14head_cowboyhat_00d_36: 1648937940
+      fbas_14head_cowboyhat_00d_77: 2090272052
+      fbas_14head_cowboyhat_00d_181: -1674142300
+      fbas_14head_cowboyhat_00d_21: 1006497164
+      fbas_14head_cowboyhat_00d_152: -1983682999
+      fbas_14head_cowboyhat_00d_149: -1675849732
+      fbas_14head_cowboyhat_00d_38: 1264836078
+      fbas_14head_cowboyhat_00d_16: 1098617308
+      fbas_14head_cowboyhat_00d_153: 1388926354
+      fbas_14head_cowboyhat_00d_59: 326691991
+      fbas_14head_cowboyhat_00d_54: 2028955586
+      fbas_14head_cowboyhat_00d_138: -343873430
+      fbas_14head_cowboyhat_00d_56: 1597871804
+      fbas_14head_cowboyhat_00d_39: 1742681102
+      fbas_14head_cowboyhat_00d_142: 1811866934
+      fbas_14head_cowboyhat_00d_19: -1221929462
+      fbas_14head_cowboyhat_00d_69: 721390762
+      fbas_14head_cowboyhat_00d_9: 159176839
+      fbas_14head_cowboyhat_00d_8: -964515624
+      fbas_14head_cowboyhat_00d_122: 1051872098
+      fbas_14head_cowboyhat_00d_35: 575284387
+      fbas_14head_cowboyhat_00d_148: 31431731
+      fbas_14head_cowboyhat_00d_163: 51028126
+      fbas_14head_cowboyhat_00d_79: 623863699
+      fbas_14head_cowboyhat_00d_151: 272812855
+      fbas_14head_cowboyhat_00d_48: -1352802708
+      fbas_14head_cowboyhat_00d_68: 695100281
+      fbas_14head_cowboyhat_00d_42: -857479710
+      fbas_14head_cowboyhat_00d_66: 74060636
+      fbas_14head_cowboyhat_00d_174: 927990588
+      fbas_14head_cowboyhat_00d_58: -2036203922
+      fbas_14head_cowboyhat_00d_40: -1617755800
+      fbas_14head_cowboyhat_00d_182: 389973122
+      fbas_14head_cowboyhat_00d_117: -1286745358
+      fbas_14head_cowboyhat_00d_37: -806040972
+      fbas_14head_cowboyhat_00d_86: -1919321414
+      fbas_14head_cowboyhat_00d_159: -560486525
+      fbas_14head_cowboyhat_00d_47: -1379042498
+      fbas_14head_cowboyhat_00d_45: 451866663
+      fbas_14head_cowboyhat_00d_137: -1346543636
+      fbas_14head_cowboyhat_00d_178: 1714407086
+      fbas_14head_cowboyhat_00d_186: -1008749958
+      fbas_14head_cowboyhat_00d_6: 969937932
+      fbas_14head_cowboyhat_00d_51: 1212254675
+      fbas_14head_cowboyhat_00d_123: -1367326996
+      fbas_14head_cowboyhat_00d_0: -492683594
+      fbas_14head_cowboyhat_00d_89: 490758178
+      fbas_14head_cowboyhat_00d_52: -479873893
+      fbas_14head_cowboyhat_00d_132: -590040684
+      fbas_14head_cowboyhat_00d_150: -1260307885
+      fbas_14head_cowboyhat_00d_102: 2121701197
+      fbas_14head_cowboyhat_00d_115: 2077935738
+      fbas_14head_cowboyhat_00d_25: 1557914416
+      fbas_14head_cowboyhat_00d_130: 1782231290
+      fbas_14head_cowboyhat_00d_32: -267166746
+      fbas_14head_cowboyhat_00d_165: -1802629499
+      fbas_14head_cowboyhat_00d_67: -213429125
+      fbas_14head_cowboyhat_00d_154: -1020492666
+      fbas_14head_cowboyhat_00d_93: -694420138
+      fbas_14head_cowboyhat_00d_187: -1150411455
+      fbas_14head_cowboyhat_00d_190: -574368411
+      fbas_14head_cowboyhat_00d_28: 1424543795
+      fbas_14head_cowboyhat_00d_57: -1506141947
+      fbas_14head_cowboyhat_00d_64: -662917976
+      fbas_14head_cowboyhat_00d_97: -823956911
+      fbas_14head_cowboyhat_00d_114: -751443342
+      fbas_14head_cowboyhat_00d_30: 1319229033
+      fbas_14head_cowboyhat_00d_103: 2072399319
+      fbas_14head_cowboyhat_00d_164: 11086591
+      fbas_14head_cowboyhat_00d_120: 512649309
+      fbas_14head_cowboyhat_00d_128: 1148509176
+      fbas_14head_cowboyhat_00d_169: 578905361
+      fbas_14head_cowboyhat_00d_145: 730525965
+      fbas_14head_cowboyhat_00d_62: 1120818948
+      fbas_14head_cowboyhat_00d_71: -1437411107
+      fbas_14head_cowboyhat_00d_139: 1465531178
+      fbas_14head_cowboyhat_00d_189: -824480448
+      fbas_14head_cowboyhat_00d_184: 1457657537
+      fbas_14head_cowboyhat_00d_107: -751545024
+      fbas_14head_cowboyhat_00d_29: -1023038304
+      fbas_14head_cowboyhat_00d_41: -1572398172
+      fbas_14head_cowboyhat_00d_136: -2064881671
+      fbas_14head_cowboyhat_00d_191: 1394568511
+      fbas_14head_cowboyhat_00d_129: 1798216162
+      fbas_14head_cowboyhat_00d_143: -513302341
+      fbas_14head_cowboyhat_00d_76: 709539575
+      fbas_14head_cowboyhat_00d_98: 417830050
+      fbas_14head_cowboyhat_00d_23: 595302370
+      fbas_14head_cowboyhat_00d_96: 1278707039
+      fbas_14head_cowboyhat_00d_125: -1663619068
+      fbas_14head_cowboyhat_00d_104: -237930195
+      fbas_14head_cowboyhat_00d_192: 1821339217
+      fbas_14head_cowboyhat_00d_50: 1852948716
+      fbas_14head_cowboyhat_00d_106: 651842052
+      fbas_14head_cowboyhat_00d_168: -1474272859
+      fbas_14head_cowboyhat_00d_127: -2069532673
+      fbas_14head_cowboyhat_00d_156: -216030549
+      fbas_14head_cowboyhat_00d_43: -300746830
+      fbas_14head_cowboyhat_00d_18: -1582068271
+      fbas_14head_cowboyhat_00d_7: 1465881698
+      fbas_14head_cowboyhat_00d_110: 1148380345
+      fbas_14head_cowboyhat_00d_170: -2020525900
+      fbas_14head_cowboyhat_00d_113: -1237494392
+      fbas_14head_cowboyhat_00d_5: 492917245
+      fbas_14head_cowboyhat_00d_27: -1154196694
+      fbas_14head_cowboyhat_00d_13: 1721319415
+      fbas_14head_cowboyhat_00d_177: 1649217288
+      fbas_14head_cowboyhat_00d_94: -195238749
+      fbas_14head_cowboyhat_00d_158: 1224860877
+      fbas_14head_cowboyhat_00d_134: -498637957
+      fbas_14head_cowboyhat_00d_88: 1199344776
+      fbas_14head_cowboyhat_00d_63: 2137189036
+      fbas_14head_cowboyhat_00d_135: -1136349557
+      fbas_14head_cowboyhat_00d_140: 2069846590
+      fbas_14head_cowboyhat_00d_183: -966199487
+      fbas_14head_cowboyhat_00d_92: -905475659
+      fbas_14head_cowboyhat_00d_101: 1370871272
+      fbas_14head_cowboyhat_00d_33: 442442383
+      fbas_14head_cowboyhat_00d_146: -1566390529
+      fbas_14head_cowboyhat_00d_55: 536165647
+      fbas_14head_cowboyhat_00d_81: -1772915882
+      fbas_14head_cowboyhat_00d_171: 324663340
+      fbas_14head_cowboyhat_00d_12: -1759456442
+      fbas_14head_cowboyhat_00d_179: -2141266334
+      fbas_14head_cowboyhat_00d_119: -1347771211
+      fbas_14head_cowboyhat_00d_53: -863967663
+      fbas_14head_cowboyhat_00d_121: -1920254896
+      fbas_14head_cowboyhat_00d_173: 1692024028
+      fbas_14head_cowboyhat_00d_167: -2074499497
+      fbas_14head_cowboyhat_00d_144: -1166418476
+      fbas_14head_cowboyhat_00d_155: -211298269
+      fbas_14head_cowboyhat_00d_17: -36135887
+      fbas_14head_cowboyhat_00d_46: 2087516420
+      fbas_14head_cowboyhat_00d_34: 720010752
+      fbas_14head_cowboyhat_00d_99: -526557449
+      fbas_14head_cowboyhat_00d_70: 2103560372
+      fbas_14head_cowboyhat_00d_112: -988827835
+      fbas_14head_cowboyhat_00d_15: -1626169537
+      fbas_14head_cowboyhat_00d_124: 1198615063
+      fbas_14head_cowboyhat_00d_131: -266901691
+      fbas_14head_cowboyhat_00d_109: 1662641433
+      fbas_14head_cowboyhat_00d_90: -920619841
+      fbas_14head_cowboyhat_00d_180: 1907733782
+      fbas_14head_cowboyhat_00d_141: -72146254
+      fbas_14head_cowboyhat_00d_85: 1026361980
+      fbas_14head_cowboyhat_00d_1: -1198804731
+      fbas_14head_cowboyhat_00d_10: 1989676637
+      fbas_14head_cowboyhat_00d_80: -1965636322
+      fbas_14head_cowboyhat_00d_44: -1492037792
+      fbas_14head_cowboyhat_00d_60: 1950301422
+      fbas_14head_cowboyhat_00d_105: 2032474714
+      fbas_14head_cowboyhat_00d_49: 358026433
+      fbas_14head_cowboyhat_00d_72: -324675441
+      fbas_14head_cowboyhat_00d_61: 768791542
+      fbas_14head_cowboyhat_00d_157: 1733906405
+      fbas_14head_cowboyhat_00d_133: -591813400
+      fbas_14head_cowboyhat_00d_126: -1881808612
+      fbas_14head_cowboyhat_00d_176: -478729189
+      fbas_14head_cowboyhat_00d_75: 1269895253
+      fbas_14head_cowboyhat_00d_2: 1071451103
+      fbas_14head_cowboyhat_00d_161: -1967577957
+      fbas_14head_cowboyhat_00d_166: -1658071475
+      fbas_14head_cowboyhat_00d_162: -877951105
+      fbas_14head_cowboyhat_00d_160: -652311930
+      fbas_14head_cowboyhat_00d_20: -302796935
+      fbas_14head_cowboyhat_00d_22: -423786432
+      fbas_14head_cowboyhat_00d_91: 68909048
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

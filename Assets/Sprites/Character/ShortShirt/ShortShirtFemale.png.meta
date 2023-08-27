@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: 2628e7f965426c147ae7d38dc8cb5263
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShortShirtFemale_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 990
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b3356e1c586ab4d94f6d5060b8ebce
+      internalID: -994401456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 996
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedae5a9a38509428b595391caae32f
+      internalID: 1346714994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 986
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d620d18c50a96f64dbe163b61f1e1722
+      internalID: 359778780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 938
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d658a22c907449a9481f7d8d51170
+      internalID: -1558923751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 926
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e717af305d1f54e802b479988ca7fd
+      internalID: -1018055323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 928
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bf38e84537c9e47ac0745483438c58
+      internalID: 1714288298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 862
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9341b34cf7feaf459652ca7d7ba951a
+      internalID: 156203331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 868
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3317f27614fb24a89373d5af37156f
+      internalID: 1741262949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 858
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e2e7e2e06b2a049929edf4126228f4
+      internalID: -2088401182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_48
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 801
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5a5baf47f33e42abedca572e1928e
+      internalID: -396904593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_49
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 797
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b764ea6eae63f3a4b83ccac62121e522
+      internalID: -1782146176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_50
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 799
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9e0d0d550bdbd40abdbdcfe3ef3cb0
+      internalID: 1166298190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_51
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 799
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc2f65d89605b8448fc089db6d4724a
+      internalID: -1904692144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_52
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 803
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71723e810aa664e48a0d207217f32667
+      internalID: 1862786186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_61
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 798
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e077ca61c089334fbcbcbf8d7ca497d
+      internalID: -862366462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 798
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a0db9d1674a4343a0a2e629e3243b3
+      internalID: -1180554047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_63
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 798
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc66ecafdaf0ef4d9db10e05fb7067f
+      internalID: 1184530568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_64
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 734
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2c447a2e680b24dab9d5a4aaa4c8f6
+      internalID: -1481682539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_65
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 734
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4262845db482c7b419011377d1438a9d
+      internalID: -285969913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_66
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 734
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38782f20d55f7849bbfe46b385e0c54
+      internalID: 1100760465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 734
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6dabf44b2b3742996ce8f0d2dc39a
+      internalID: -1457642176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_68
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 733
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a182d397935d14eb42f532be5f8952
+      internalID: -1792029935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_69
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 733
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04215bf4acb0e4a408de3ea3afa65831
+      internalID: 1894077536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_70
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 738
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946de031abe5dd64cbe88bf118c59879
+      internalID: 469546098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortShirtFemale_71
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 738
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac41ca22485cc849b4d7a9855623244
+      internalID: 1378150451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ShortShirtFemale_24: 461409853
+      ShortShirtFemale_14: 314793617
+      ShortShirtFemale_149: -650517433
+      ShortShirtFemale_168: 209545210
+      ShortShirtFemale_84: 960327321
+      ShortShirtFemale_192: 1306028847
+      ShortShirtFemale_50: 1166298190
+      ShortShirtFemale_45: 1666593452
+      ShortShirtFemale_96: -136458199
+      ShortShirtFemale_142: 1828848138
+      ShortShirtFemale_15: 1120043
+      ShortShirtFemale_16: -1558923751
+      ShortShirtFemale_61: -862366462
+      ShortShirtFemale_171: 2057025685
+      ShortShirtFemale_164: 1269929983
+      ShortShirtFemale_155: -463236595
+      ShortShirtFemale_143: 888394834
+      ShortShirtFemale_183: 617171014
+      ShortShirtFemale_162: -1640010261
+      ShortShirtFemale_91: 1359024771
+      ShortShirtFemale_110: 1175088077
+      ShortShirtFemale_79: -2027893381
+      ShortShirtFemale_159: -896087016
+      ShortShirtFemale_88: -151193024
+      ShortShirtFemale_1: 1346714994
+      ShortShirtFemale_18: -1018055323
+      ShortShirtFemale_48: -396904593
+      ShortShirtFemale_17: 486585495
+      ShortShirtFemale_189: -27013892
+      ShortShirtFemale_47: 496899940
+      ShortShirtFemale_78: 1233332763
+      ShortShirtFemale_11: -1145331730
+      ShortShirtFemale_2: -3160582
+      ShortShirtFemale_99: -444887883
+      ShortShirtFemale_29: -9704740
+      ShortShirtFemale_9: 359778780
+      ShortShirtFemale_80: 1983037587
+      ShortShirtFemale_21: 397751183
+      ShortShirtFemale_178: -50495988
+      ShortShirtFemale_115: 1056842824
+      ShortShirtFemale_94: -1398017524
+      ShortShirtFemale_113: 1478820497
+      ShortShirtFemale_167: 1649890328
+      ShortShirtFemale_92: -1861169081
+      ShortShirtFemale_23: -114439510
+      ShortShirtFemale_118: 1435106995
+      ShortShirtFemale_36: 669765
+      ShortShirtFemale_172: 1276525752
+      ShortShirtFemale_77: 1221355704
+      ShortShirtFemale_82: 1816957850
+      ShortShirtFemale_40: 1773855635
+      ShortShirtFemale_76: -471194426
+      ShortShirtFemale_156: -1419298625
+      ShortShirtFemale_121: 1582240629
+      ShortShirtFemale_104: 27795728
+      ShortShirtFemale_38: -573834505
+      ShortShirtFemale_32: 156203331
+      ShortShirtFemale_106: -2136341828
+      ShortShirtFemale_63: 1184530568
+      ShortShirtFemale_123: -1463440098
+      ShortShirtFemale_174: 1060936607
+      ShortShirtFemale_148: 1862325528
+      ShortShirtFemale_134: -762556752
+      ShortShirtFemale_55: 271407546
+      ShortShirtFemale_28: 513903255
+      ShortShirtFemale_180: -1328124521
+      ShortShirtFemale_125: 1806189581
+      ShortShirtFemale_89: -1413736343
+      ShortShirtFemale_154: -1655499864
+      ShortShirtFemale_177: 1428435664
+      ShortShirtFemale_68: -1792029935
+      ShortShirtFemale_191: 769632087
+      ShortShirtFemale_49: -1782146176
+      ShortShirtFemale_132: 337034923
+      ShortShirtFemale_112: -1953088074
+      ShortShirtFemale_86: -1977687779
+      ShortShirtFemale_194: -1176867783
+      ShortShirtFemale_6: 2076642378
+      ShortShirtFemale_71: 1378150451
+      ShortShirtFemale_25: -1475396364
+      ShortShirtFemale_182: 1834975475
+      ShortShirtFemale_57: -107509056
+      ShortShirtFemale_144: 1008068338
+      ShortShirtFemale_185: -1758920437
+      ShortShirtFemale_140: -976812277
+      ShortShirtFemale_111: 1944600892
+      ShortShirtFemale_103: 1782146506
+      ShortShirtFemale_66: 1100760465
+      ShortShirtFemale_98: 431803229
+      ShortShirtFemale_138: -653953518
+      ShortShirtFemale_19: 1714288298
+      ShortShirtFemale_46: -2000648454
+      ShortShirtFemale_67: -1457642176
+      ShortShirtFemale_146: 1226860450
+      ShortShirtFemale_93: -462206359
+      ShortShirtFemale_188: 2141310547
+      ShortShirtFemale_62: -1180554047
+      ShortShirtFemale_90: 1518827884
+      ShortShirtFemale_34: 1619629736
+      ShortShirtFemale_145: 974590820
+      ShortShirtFemale_73: -975456430
+      ShortShirtFemale_13: 1605484521
+      ShortShirtFemale_129: 1619375533
+      ShortShirtFemale_7: -95463533
+      ShortShirtFemale_4: -778249658
+      ShortShirtFemale_42: -115436938
+      ShortShirtFemale_59: -670051739
+      ShortShirtFemale_160: 1149910215
+      ShortShirtFemale_107: -1018369699
+      ShortShirtFemale_102: 148017692
+      ShortShirtFemale_117: -1091602010
+      ShortShirtFemale_147: 858981958
+      ShortShirtFemale_190: -1276108225
+      ShortShirtFemale_41: -1071798402
+      ShortShirtFemale_163: -867589121
+      ShortShirtFemale_157: -360719420
+      ShortShirtFemale_179: -1335336509
+      ShortShirtFemale_100: 86674231
+      ShortShirtFemale_173: 1154627141
+      ShortShirtFemale_54: 587924965
+      ShortShirtFemale_133: 1598172005
+      ShortShirtFemale_95: 1114048339
+      ShortShirtFemale_72: 388558689
+      ShortShirtFemale_193: -129648028
+      ShortShirtFemale_187: -289078527
+      ShortShirtFemale_131: 1259957866
+      ShortShirtFemale_10: -1864285281
+      ShortShirtFemale_33: 1741262949
+      ShortShirtFemale_37: 185964569
+      ShortShirtFemale_75: -1985090847
+      ShortShirtFemale_30: 1670549485
+      ShortShirtFemale_101: -1345108572
+      ShortShirtFemale_27: 2022017324
+      ShortShirtFemale_51: -1904692144
+      ShortShirtFemale_136: 1492916732
+      ShortShirtFemale_165: 949872006
+      ShortShirtFemale_39: -1023369085
+      ShortShirtFemale_58: 542033888
+      ShortShirtFemale_22: -989671247
+      ShortShirtFemale_44: -2088401182
+      ShortShirtFemale_105: 65565153
+      ShortShirtFemale_0: -994401456
+      ShortShirtFemale_64: -1481682539
+      ShortShirtFemale_85: 1954087444
+      ShortShirtFemale_130: -712064842
+      ShortShirtFemale_186: -128321101
+      ShortShirtFemale_126: 1765726235
+      ShortShirtFemale_181: -933717846
+      ShortShirtFemale_152: 1186497996
+      ShortShirtFemale_153: -1728543250
+      ShortShirtFemale_108: 1653547817
+      ShortShirtFemale_87: 1952924782
+      ShortShirtFemale_26: 1038335397
+      ShortShirtFemale_176: -1695666881
+      ShortShirtFemale_74: -1088761774
+      ShortShirtFemale_120: 1709602628
+      ShortShirtFemale_3: 1688380773
+      ShortShirtFemale_5: -971460978
+      ShortShirtFemale_170: -1413205399
+      ShortShirtFemale_43: -307121993
+      ShortShirtFemale_150: -1345190320
+      ShortShirtFemale_114: -2011813017
+      ShortShirtFemale_158: -1339398243
+      ShortShirtFemale_31: -2047665706
+      ShortShirtFemale_60: 546797497
+      ShortShirtFemale_119: 1900828196
+      ShortShirtFemale_35: 613992112
+      ShortShirtFemale_141: -1619533282
+      ShortShirtFemale_52: 1862786186
+      ShortShirtFemale_8: 433408410
+      ShortShirtFemale_122: -1376216253
+      ShortShirtFemale_161: 636713232
+      ShortShirtFemale_53: 454978815
+      ShortShirtFemale_81: 537580037
+      ShortShirtFemale_166: -1818327135
+      ShortShirtFemale_12: -122085350
+      ShortShirtFemale_83: 267218645
+      ShortShirtFemale_109: -824206012
+      ShortShirtFemale_137: -628078688
+      ShortShirtFemale_184: -1481422093
+      ShortShirtFemale_135: 1225869491
+      ShortShirtFemale_69: 1894077536
+      ShortShirtFemale_65: -285969913
+      ShortShirtFemale_116: -1096983050
+      ShortShirtFemale_128: -396385267
+      ShortShirtFemale_151: 42528113
+      ShortShirtFemale_70: 469546098
+      ShortShirtFemale_97: 1349600690
+      ShortShirtFemale_124: 1486238460
+      ShortShirtFemale_175: -517464834
+      ShortShirtFemale_127: -624311349
+      ShortShirtFemale_169: -1509337997
+      ShortShirtFemale_20: -1190814176
+      ShortShirtFemale_139: -1896937590
+      ShortShirtFemale_56: -1378719656
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
