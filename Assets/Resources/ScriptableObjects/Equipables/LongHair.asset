@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 9100000, guid: 0ab0e9c5d3bf9ff4aa156f71ddd3f416, type: 2}
   equipablePosition: {x: 0.002, y: 0.713, z: 0}
   equipableName: Long Haircut
+  equipableDescription: Your long hair looks amazing
   equipablePrice: 20

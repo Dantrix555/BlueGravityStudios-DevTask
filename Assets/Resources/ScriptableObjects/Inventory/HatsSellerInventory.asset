@@ -15,3 +15,5 @@ MonoBehaviour:
   equipableInventory:
   - {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
   - {fileID: 11400000, guid: 6b98d6a3426d8414bb722c2c0df06e3d, type: 2}
+  - {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
+  isFullyHaircutInventory: 0

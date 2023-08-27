@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 9100000, guid: e342ef638ffb3824aa86fedd35a35289, type: 2}
   equipablePosition: {x: 0, y: -0.342, z: 0}
   equipableName: Blue Outfit
+  equipableDescription: This blue outfit it's elegant
   equipablePrice: 60

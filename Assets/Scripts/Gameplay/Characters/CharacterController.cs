@@ -41,11 +41,18 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
     public void OnInteract(InputAction.CallbackContext context)
     {
         //TODO: Check if player is interacting with something
+        ServiceLocator.Instance.GetService<CanvasController>().ShowBuyingPanel(characterData.testInventory, false);
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         actualCharacterDirection = context.ReadValue<Vector2>();
+    }
+
+    public void OnInventory(InputAction.CallbackContext context)
+    {
+        //Freeze game state and show inventory, if inventory opened, close inventory
+        ServiceLocator.Instance.GetService<CanvasController>().ShowInventory(characterData.CharacterInventory);
     }
 
     #endregion

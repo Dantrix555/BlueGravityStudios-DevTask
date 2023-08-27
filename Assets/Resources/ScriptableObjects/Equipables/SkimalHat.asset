@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 9100000, guid: 3e0ab9c3120d3ea42ad1940130ae123f, type: 2}
   equipablePosition: {x: -0.001, y: 0.664, z: 0}
   equipableName: Skimal Hat
+  equipableDescription: This skimal hat is useful for really cold wheater
   equipablePrice: 50

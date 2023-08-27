@@ -48,9 +48,18 @@ public class CanvasController : IInstaller
         inventoryPanel.ClosePanel();
     }
 
-    public void ShowInventory()
+    public void ShowInventory(SOInventory characterInventory)
     {
+        inventoryPanel.ShowPanel(characterInventory);
+        chatPanel.ClosePanel();
+        buyPanel.ClosePanel();
+    }
 
+    public void HideInventory()
+    {
+        chatPanel.ClosePanel();
+        chatPanel.ClosePanel();
+        inventoryPanel.ClosePanel();
     }
 
     #endregion
@@ -61,7 +70,7 @@ public class CanvasController : IInstaller
     {
         chatPanel.SetupPanel();
         buyPanel.SetupPanel();
-        
+        inventoryPanel.SetupPanel();
     }
 
     private void SetupEventSystem(GameObject selectionGameObject)

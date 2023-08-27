@@ -99,6 +99,8 @@ MonoBehaviour:
   equipableHat: {fileID: 5117806246836901156}
   equipableHair: {fileID: 5117806248345987608}
   equipableOutfit: {fileID: 5117806248644691228}
+  noHatData: {fileID: 11400000, guid: dabd8ce21ef8b204ea133995f494e84b, type: 2}
+  noOutfitData: {fileID: 11400000, guid: 3d0c07711f89b1c48990d8c83a4fc2f6, type: 2}
 --- !u!1 &5117806246836901152
 GameObject:
   m_ObjectHideFlags: 0

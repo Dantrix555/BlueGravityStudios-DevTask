@@ -60,6 +60,9 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
         sellButton.gameObject.SetActive(!isHairCut);
         this.sellerInventory = sellerInventory;
         gameObject.SetActive(true);
+
+        itemsView.gameObject.SetActive(false);
+        confirmationSubpanel.gameObject.SetActive(false);
     }
 
     #endregion
@@ -70,7 +73,7 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
     {
         this.playerIsBuying = playerIsBuying;
         SOInventory inventoryToBeSet = playerIsBuying ? sellerInventory : playerInventory;
-        itemsView.UpdateInventory(inventoryToBeSet);
+        itemsView.UpdateInventory(inventoryToBeSet, playerIsBuying);
     }
 
     private void OnExitSelected()
@@ -98,7 +101,7 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
             playerInventory.AddEquipableToInventory(cachedEquipableData);
             sellerInventory.RemoveEquipableFromInventory(cachedEquipableData);
         }
-        else if(playerIsBuying && cachedEquipableData.EquipableType != EquipableType.Hair)
+        else if(playerIsBuying && cachedEquipableData.EquipableType == EquipableType.Hair)
         {
             ServiceLocator.Instance.GetService<CharactersInstaller>().UpdatePlayerData(cachedEquipableData);
         }
@@ -106,6 +109,7 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
         {
             sellerInventory.AddEquipableToInventory(cachedEquipableData);
             playerInventory.RemoveEquipableFromInventory(cachedEquipableData);
+            ServiceLocator.Instance.GetService<CharactersInstaller>().CheckIfSoldPartShouldBeRemoved(cachedEquipableData);
         }
 
         itemsView.gameObject.SetActive(false);

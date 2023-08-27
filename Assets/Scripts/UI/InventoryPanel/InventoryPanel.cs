@@ -13,6 +13,8 @@ public class InventoryPanel : MonoBehaviour, IPanel
     [SerializeField]
     private Button hatsButton;
     [SerializeField]
+    private Button exitButton;
+    [SerializeField]
     private List<ItemInventoryButton> availableButtons;
 
     [Space(5)]
@@ -22,12 +24,7 @@ public class InventoryPanel : MonoBehaviour, IPanel
     [SerializeField]
     private TMP_Text descriptionText;
 
-    [Space(5)]
-    [Header("Other components")]
-    [SerializeField]
     private SOInventory playerInventory;
-
-
     private CharactersInstaller charactersInstaller;
     private SOEquipableData cachedEquipedHat;
     private SOEquipableData cachedEquipedOutfit;
@@ -40,6 +37,7 @@ public class InventoryPanel : MonoBehaviour, IPanel
     {
         outfitsButton.onClick.AddListener(() => { OnSelectedItemType(EquipableType.Outfit); });
         hatsButton.onClick.AddListener(() => { OnSelectedItemType(EquipableType.Hat); });
+        exitButton.onClick.AddListener(ClosePanel);
 
         charactersInstaller = ServiceLocator.Instance.GetService<CharactersInstaller>();
 
@@ -58,11 +56,13 @@ public class InventoryPanel : MonoBehaviour, IPanel
 
     #region Public Methods
 
-    public void ShowPanel(SOInventory playerInventory)
+    public void ShowPanel(SOInventory characterInventory)
     {
-        this.playerInventory = playerInventory;
+        playerInventory = characterInventory;
         cachedEquipedHat = charactersInstaller.GetEquipableData(EquipableType.Hat);
         cachedEquipedOutfit = charactersInstaller.GetEquipableData(EquipableType.Outfit);
+        availableButtons.ForEach(button => button.gameObject.SetActive(false));
+        gameObject.SetActive(true);
     }
 
     #endregion
@@ -89,7 +89,6 @@ public class InventoryPanel : MonoBehaviour, IPanel
                 ItemInventoryButton button = availableButtons[actualButtonIndex];
                 
                 SOEquipableData equipableItemToCheck = equipableItemType == EquipableType.Hat ? cachedEquipedHat : cachedEquipedOutfit;
-                button.SetFrameIfSelected(equipableItemToCheck);
                 button.ShowButton(equipableItem);
 
                 actualButtonIndex++;
@@ -99,6 +98,8 @@ public class InventoryPanel : MonoBehaviour, IPanel
 
     private void OnItemSet(SOEquipableData itemData)
     {
+        availableButtons.ForEach(button => button.SetFrameIfSelected(itemData));
+
         cachedEquipedHat = itemData.EquipableType == EquipableType.Hat ? itemData : cachedEquipedHat;
         cachedEquipedOutfit = itemData.EquipableType == EquipableType.Outfit ? itemData : cachedEquipedOutfit;
         charactersInstaller.UpdatePlayerData(itemData);

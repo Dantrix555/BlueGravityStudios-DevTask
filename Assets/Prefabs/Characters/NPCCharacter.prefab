@@ -652,3 +652,5 @@ MonoBehaviour:
   equipableHat: {fileID: 5803634659063939893}
   equipableHair: {fileID: 5803634659674014369}
   equipableOutfit: {fileID: 5803634658398706308}
+  noHatData: {fileID: 11400000, guid: dabd8ce21ef8b204ea133995f494e84b, type: 2}
+  noOutfitData: {fileID: 11400000, guid: 3d0c07711f89b1c48990d8c83a4fc2f6, type: 2}

@@ -8,8 +8,11 @@ public class SOInventory : ScriptableObject
 
     [SerializeField]
     private List<SOEquipableData> equipableInventory;
+    [SerializeField]
+    private bool isFullyHaircutInventory;
 
     public List<SOEquipableData> EquipableInventory => equipableInventory;
+    public bool IsFullyHaircutInventory => isFullyHaircutInventory;
 
     #endregion
 

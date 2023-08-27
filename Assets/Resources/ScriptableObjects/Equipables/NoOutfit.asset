@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 0}
   equipablePosition: {x: 0, y: -0.342, z: 0}
   equipableName: No Outfit
+  equipableDescription: You like to be "wild"
   equipablePrice: 0

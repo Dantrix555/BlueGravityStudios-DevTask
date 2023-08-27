@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 0}
   equipablePosition: {x: 0.002, y: 0.713, z: 0}
   equipableName: Bald
+  equipableDescription: You have no hair
   equipablePrice: 10

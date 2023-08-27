@@ -7,7 +7,7 @@ public class ItemsViewForPurchase : MonoBehaviour
     #region Fields and Properties
 
     [SerializeField]
-    private ItemButton[] availableButtons; //This should be its own type of buttons
+    private ItemButton[] availableButtons;
 
     #endregion
 
@@ -21,19 +21,26 @@ public class ItemsViewForPurchase : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void UpdateInventory(SOInventory selectedInventory)
+    public void UpdateInventory(SOInventory selectedInventory, bool playerIsBuying)
     {
         List<SOEquipableData> equipables = selectedInventory.EquipableInventory;
+        int actualButtonIndex = 0;
 
-        for (int i = 0; i < availableButtons.Length; i++)
+        foreach (ItemButton button in availableButtons)
+            button.gameObject.SetActive(false);
+        
+        foreach (SOEquipableData equipableItem in equipables)
         {
-            if(equipables[i])
-            {
-                availableButtons[i].SetButtonNewItemData(equipables[i]);
-                availableButtons[i].gameObject.SetActive(true);
-            }
-            else
-                availableButtons[i].gameObject.SetActive(false);
+            if (equipableItem.EquipablePreviewImageSprite == null || 
+                (!playerIsBuying && equipableItem.EquipableType == EquipableType.Hair))
+                continue;
+
+            ItemButton button = availableButtons[actualButtonIndex];
+
+            button.SetButtonNewItemData(equipableItem);
+            button.gameObject.SetActive(true);
+
+            actualButtonIndex++;
         }
 
         gameObject.SetActive(true);

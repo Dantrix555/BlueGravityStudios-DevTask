@@ -19,6 +19,13 @@ public abstract class BaseCharacter : MonoBehaviour
     [SerializeField]
     private EquipablePart equipableOutfit;
 
+    [Space(5)]
+    [Header("Empty parts")]
+    [SerializeField]
+    private SOEquipableData noHatData;
+    [SerializeField]
+    private SOEquipableData noOutfitData;
+
     protected SOCharacterData characterData;
     protected Vector2 actualCharacterDirection;
 
@@ -32,6 +39,20 @@ public abstract class BaseCharacter : MonoBehaviour
         equipableHat.UpdateEquipable(characterData.EquipableHatData);
         equipableHair.UpdateEquipable(characterData.EquipableHairData);
         equipableOutfit.UpdateEquipable(characterData.EquipableOutfitData);
+    }
+
+    public void UpdateCharacterRemovedPart(EquipableType equipableType)
+    {
+        if(equipableType == EquipableType.Hat)
+        {
+            equipableHat.UpdateEquipable(noHatData);
+            characterData.EquipableHatData = noHatData;
+        }
+        else
+        {
+            equipableOutfit.UpdateEquipable(noOutfitData);
+            characterData.EquipableOutfitData = noOutfitData;
+        }
     }
 
     #endregion

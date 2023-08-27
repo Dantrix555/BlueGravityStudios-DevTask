@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   equipableInventory:
-  - {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
   - {fileID: 11400000, guid: 7e716ce9e144973449ab44f232681fa5, type: 2}
-  - {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
   - {fileID: 11400000, guid: dabd8ce21ef8b204ea133995f494e84b, type: 2}
   - {fileID: 11400000, guid: 3d0c07711f89b1c48990d8c83a4fc2f6, type: 2}
+  - {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
+  - {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
+  isFullyHaircutInventory: 0

@@ -15,5 +15,7 @@ MonoBehaviour:
   equipableHatData: {fileID: 11400000, guid: dabd8ce21ef8b204ea133995f494e84b, type: 2}
   equipableHairData: {fileID: 11400000, guid: 446d98bf9d03d594ca3fc2faaac5c4d1, type: 2}
   equipableOutfitData: {fileID: 11400000, guid: 231c48631c951fd4d9170128feee32bd, type: 2}
+  characterInventory: {fileID: 11400000, guid: c8db79f2dcaf6ef499fdbfbf04cb874e, type: 2}
+  testInventory: {fileID: 0}
   speed: 0
   defaultDialog: {fileID: 0}

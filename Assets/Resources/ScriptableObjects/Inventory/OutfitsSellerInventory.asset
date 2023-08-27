@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: OutfitsSellerInventory
   m_EditorClassIdentifier: 
   equipableInventory:
-  - {fileID: 11400000, guid: 231c48631c951fd4d9170128feee32bd, type: 2}
   - {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
+  - {fileID: 11400000, guid: 231c48631c951fd4d9170128feee32bd, type: 2}
+  isFullyHaircutInventory: 0

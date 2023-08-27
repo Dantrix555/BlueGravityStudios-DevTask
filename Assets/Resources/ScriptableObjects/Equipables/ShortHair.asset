@@ -17,4 +17,5 @@ MonoBehaviour:
   equipableAnimatorController: {fileID: 9100000, guid: 17584275e110eb344af493f6b76236a4, type: 2}
   equipablePosition: {x: 0.002, y: 0.713, z: 0}
   equipableName: Short Haircut
+  equipableDescription: Your short hair looks amazing
   equipablePrice: 10

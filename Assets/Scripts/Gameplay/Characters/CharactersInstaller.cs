@@ -57,7 +57,7 @@ public class CharactersInstaller : IInstaller
 
     public SOEquipableData GetEquipableData(EquipableType equipableType)
     {
-        switch(equipableType)
+        switch (equipableType)
         {
             case EquipableType.Hat:
                 return mainCharacterData.EquipableHatData;
@@ -69,6 +69,12 @@ public class CharactersInstaller : IInstaller
 
         Debug.LogError(string.Concat("Required equipable of type ", equipableType.ToString(), " not found, returning null"));
         return null;
+    }
+
+    public void CheckIfSoldPartShouldBeRemoved(SOEquipableData removedEquipableData)
+    {
+        if (removedEquipableData == mainCharacterData.EquipableHatData || removedEquipableData == mainCharacterData.EquipableOutfitData)
+            playerController.UpdateCharacterRemovedPart(removedEquipableData.EquipableType);
     }
 
     #endregion

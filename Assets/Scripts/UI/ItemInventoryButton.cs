@@ -45,7 +45,6 @@ public class ItemInventoryButton : MonoBehaviour
     private void OnItemSelected()
     {
         onSelectedAction?.Invoke(cachedEquipableData);
-        selectedFrame.SetActive(true);
     }
 
     #endregion

@@ -16,3 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 38a0b867b0aeb0e4dae75b24b7d9c7b6, type: 2}
   - {fileID: 11400000, guid: 446d98bf9d03d594ca3fc2faaac5c4d1, type: 2}
   - {fileID: 11400000, guid: 7e716ce9e144973449ab44f232681fa5, type: 2}
+  isFullyHaircutInventory: 1
