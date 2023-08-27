@@ -19,8 +19,7 @@ public abstract class BaseCharacter : MonoBehaviour
     [SerializeField]
     private EquipablePart equipableOutfit;
 
-    private SOCharacterData characterData;
-
+    protected SOCharacterData characterData;
     protected Vector2 actualCharacterDirection;
 
     #endregion

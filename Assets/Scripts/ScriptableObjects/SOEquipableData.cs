@@ -23,13 +23,18 @@ public class SOEquipableData : ScriptableObject
     private string equipableName;
 
     [SerializeField]
+    [TextArea]
+    private string equipableDescription;
+
+    [SerializeField]
     private int equipablePrice;
 
     public EquipableType EquipableType => equipableType;
-    public Sprite EquipablePreviewImage => equipablePreviewImage;
+    public Sprite EquipablePreviewImageSprite => equipablePreviewImage;
     public RuntimeAnimatorController EquipableAnimatorController => equipableAnimatorController;
     public Vector3 EquipablePosition => equipablePosition;
     public string EquipableName => equipableName;
+    public string EquipableDescription => equipableDescription;
     public int EquipablePrice => equipablePrice;
 
     #endregion

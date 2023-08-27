@@ -34,7 +34,7 @@ public class CharactersInstaller : IInstaller
 
     #endregion
 
-    #region IInstaller Implementation Methods
+    #region IInstaller Override Methods
 
     public override void Install(ServiceLocator serviceLocator)
     {
@@ -53,6 +53,22 @@ public class CharactersInstaller : IInstaller
         mainCharacterData.EquipableOutfitData = equipableData.EquipableType == EquipableType.Outfit ? equipableData : mainCharacterData.EquipableOutfitData;
 
         playerController.UpdateCharacterData(mainCharacterData);
+    }
+
+    public SOEquipableData GetEquipableData(EquipableType equipableType)
+    {
+        switch(equipableType)
+        {
+            case EquipableType.Hat:
+                return mainCharacterData.EquipableHatData;
+            case EquipableType.Outfit:
+                return mainCharacterData.EquipableOutfitData;
+            case EquipableType.Hair:
+                return mainCharacterData.EquipableHairData;
+        }
+
+        Debug.LogError(string.Concat("Required equipable of type ", equipableType.ToString(), " not found, returning null"));
+        return null;
     }
 
     #endregion

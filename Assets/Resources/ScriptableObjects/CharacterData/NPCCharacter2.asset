@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a50b05b207a49184a9b03d963b2bae47, type: 3}
+  m_Script: {fileID: 11500000, guid: b94d047d5b54fd64398749b383666fe7, type: 3}
   m_Name: NPCCharacter2
   m_EditorClassIdentifier: 
   equipableHatData: {fileID: 11400000, guid: 6b98d6a3426d8414bb722c2c0df06e3d, type: 2}
   equipableHairData: {fileID: 11400000, guid: 38a0b867b0aeb0e4dae75b24b7d9c7b6, type: 2}
   equipableOutfitData: {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
   speed: 0
+  defaultDialog: {fileID: 0}

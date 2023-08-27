@@ -4,5 +4,18 @@ using UnityEngine;
 
 public class NPCController : BaseCharacter
 {
-    //TODO: Create dialog reference and use the service locator to trigger dialog UI
+    #region Fields and Properties
+
+    private SO_NPC_Data npcData;
+
+    #endregion
+
+    #region Unity Methods
+
+    private void Start()
+    {
+        npcData = (SO_NPC_Data)characterData;
+    }
+
+    #endregion
 }
