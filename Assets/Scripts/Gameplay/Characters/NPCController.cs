@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class NPCController : BaseCharacter
+public class NPCController : BaseCharacter, IInteractable
 {
     #region Fields and Properties
 
@@ -15,6 +11,18 @@ public class NPCController : BaseCharacter
     private void Start()
     {
         npcData = (SO_NPC_Data)characterData;
+
+        animator.SetFloat("IdleX", npcData.FacingVector.x);
+        animator.SetFloat("IdleY", npcData.FacingVector.y);
+    }
+
+    #endregion
+
+    #region IInteractable Implementation Methods
+
+    public void TriggerInteraction()
+    {
+        ServiceLocator.Instance.GetService<CanvasController>().ShowChatPanel(npcData);
     }
 
     #endregion

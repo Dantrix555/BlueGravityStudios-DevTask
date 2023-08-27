@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -13,6 +11,7 @@ public class ChatPanelController : MonoBehaviour, IPanel
     [SerializeField]
     private Button nextButton;
 
+    private SO_NPC_Data npcCharacterData;
     private SOCharacterDialog actualDialog;
     private int actualDialogIndex;
 
@@ -36,11 +35,13 @@ public class ChatPanelController : MonoBehaviour, IPanel
 
     #region Public Methods
 
-    public void ShowPanel(SOCharacterDialog newDialog)
+    public void ShowPanel(SO_NPC_Data npcCharacterData)
     {
-        actualDialog = newDialog;
+        this.npcCharacterData = npcCharacterData;
+        actualDialog = npcCharacterData.DefaultDialog;
+        actualDialogIndex = 0;
+        OnNextButton();
         gameObject.SetActive(true);
-        //Set here the first dialog text
     }
 
     #endregion
@@ -49,7 +50,18 @@ public class ChatPanelController : MonoBehaviour, IPanel
 
     private void OnNextButton()
     {
-        //Check if more text should be displayed or if only is necesary to hide object
+        if(actualDialogIndex < actualDialog.Dialogs.Length - 1)
+        {
+            chatText.text = string.Concat(actualDialog.Dialogs[actualDialogIndex].characterTalking, ": ", actualDialog.Dialogs[actualDialogIndex].dialogText);
+            actualDialogIndex++;
+        }
+        else
+        {
+            if (actualDialog.ActionAfterDialog == ActionAfterDialog.ShowBuyingOptions)
+                ServiceLocator.Instance.GetService<CanvasController>().ShowBuyingPanel(npcCharacterData.CharacterInventory, npcCharacterData.CharacterInventory.IsFullyHaircutInventory);
+
+            ClosePanel();
+        }
     }
 
     #endregion

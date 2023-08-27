@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewCharacterStatsData", menuName = "BGSDevTask/Create new character stats")]
-public class SOCharacterData : ScriptableObject
+public abstract class SOCharacterData : ScriptableObject
 {
     #region Fields and properties
 
@@ -18,8 +18,6 @@ public class SOCharacterData : ScriptableObject
     [Header("Other stats")]
     [SerializeField]
     private SOInventory characterInventory;
-
-    public SOInventory testInventory;
 
     [SerializeField]
     [Range(0, 10)] [Min(0)]

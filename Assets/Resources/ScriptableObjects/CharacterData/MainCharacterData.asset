@@ -9,12 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a50b05b207a49184a9b03d963b2bae47, type: 3}
+  m_Script: {fileID: 11500000, guid: eafbf57c87e719c4da15f0b119380159, type: 3}
   m_Name: MainCharacterData
   m_EditorClassIdentifier: 
   equipableHatData: {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
   equipableHairData: {fileID: 11400000, guid: 446d98bf9d03d594ca3fc2faaac5c4d1, type: 2}
   equipableOutfitData: {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
   characterInventory: {fileID: 11400000, guid: 5a6e879b25c0aab4691a496b7d6202a6, type: 2}
-  testInventory: {fileID: 11400000, guid: 566a56c331f09dc49b2fe60e37f0631b, type: 2}
   speed: 5
+  detectionLinearDistance: 5
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 64

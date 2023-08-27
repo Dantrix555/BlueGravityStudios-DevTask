@@ -34,9 +34,9 @@ public class CanvasController : IInstaller
 
     #region Public Methods
 
-    public void ShowChatPanel(SOCharacterDialog dialogToShow)
+    public void ShowChatPanel(SO_NPC_Data npcCharacterData)
     {
-        chatPanel.ShowPanel(dialogToShow);
+        chatPanel.ShowPanel(npcCharacterData);
         buyPanel.ClosePanel();
         inventoryPanel.ClosePanel();
     }

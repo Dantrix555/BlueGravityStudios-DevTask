@@ -8,7 +8,7 @@ public abstract class BaseCharacter : MonoBehaviour
     [SerializeField]
     private Rigidbody2D rigidboby;
     [SerializeField]
-    private Animator animator;
+    protected Animator animator;
 
     [Space(5)]
     [Header("Equipable parts")]
