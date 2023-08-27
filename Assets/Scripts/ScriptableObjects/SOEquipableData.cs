@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEditor.Animations;
 
 public enum EquipableType { Hat, Outfit, Hair }
 
@@ -18,6 +17,9 @@ public class SOEquipableData : ScriptableObject
     private RuntimeAnimatorController equipableAnimatorController;
 
     [SerializeField]
+    private Vector3 equipablePosition;
+
+    [SerializeField]
     private string equipableName;
 
     [SerializeField]
@@ -26,6 +28,7 @@ public class SOEquipableData : ScriptableObject
     public EquipableType EquipableType => equipableType;
     public Sprite EquipablePreviewImage => equipablePreviewImage;
     public RuntimeAnimatorController EquipableAnimatorController => equipableAnimatorController;
+    public Vector3 EquipablePosition => equipablePosition;
     public string EquipableName => equipableName;
     public int EquipablePrice => equipablePrice;
 

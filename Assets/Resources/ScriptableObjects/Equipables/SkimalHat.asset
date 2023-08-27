@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f124812e1f27d84595cab68860ac0d8, type: 3}
   m_Name: SkimalHat
   m_EditorClassIdentifier: 
+  equipableType: 0
   equipablePreviewImage: {fileID: 977981777, guid: 4a9cab95b0eed2241872e45105a5a48e, type: 3}
   equipableAnimatorController: {fileID: 9100000, guid: 3e0ab9c3120d3ea42ad1940130ae123f, type: 2}
+  equipablePosition: {x: -0.001, y: 0.664, z: 0}
   equipableName: Skimal Hat
   equipablePrice: 50

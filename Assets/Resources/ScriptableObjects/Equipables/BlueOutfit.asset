@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: BlueOutfit
   m_EditorClassIdentifier: 
   equipableType: 1
-  equipablePreviewImage: {fileID: 116015126, guid: 1bac85d5803e77249921f05aab4c7a01, type: 3}
-  equipableAnimatorController: {fileID: 9100000, guid: 2f87feae486d19d4897ca93404302f38, type: 2}
+  equipablePreviewImage: {fileID: -828478179, guid: 99799f0f80f286341b4d7ffbce49a7bd, type: 3}
+  equipableAnimatorController: {fileID: 9100000, guid: e342ef638ffb3824aa86fedd35a35289, type: 2}
+  equipablePosition: {x: 0, y: -0.342, z: 0}
   equipableName: Blue Outfit
   equipablePrice: 60

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f124812e1f27d84595cab68860ac0d8, type: 3}
   m_Name: MagicianHat
   m_EditorClassIdentifier: 
+  equipableType: 0
   equipablePreviewImage: {fileID: -1943815050, guid: 3d4f287649ba56145a3f6c630d22ea67, type: 3}
   equipableAnimatorController: {fileID: 9100000, guid: 0555de99644b1924aafee2768f56009e, type: 2}
+  equipablePosition: {x: -0.03, y: 1.031, z: 0}
   equipableName: Magician Hat
   equipablePrice: 80

@@ -8,7 +8,7 @@ public class EquipablePart : MonoBehaviour
     private Animator equipableAnimator;
 
     [SerializeField]
-    private SOEquipableData equipableData;
+    private EquipableType equipableExpectedType;
 
     #endregion
 
@@ -16,20 +16,29 @@ public class EquipablePart : MonoBehaviour
 
     public void UpdateEquipable(SOEquipableData equipableData)
     {
-        if(this.equipableData.EquipableType != equipableData.EquipableType)
+        if(this.equipableExpectedType != equipableData.EquipableType)
         {
             Debug.LogWarning(string.Concat("Trying to equip an equipable type of ", equipableData.EquipableType.ToString(), " into ", gameObject.name,
-                " which is an equipable type ", this.equipableData.EquipableType.ToString(), " returning ..."));
+                " which is an equipable type ", this.equipableExpectedType.ToString(), " returning ..."));
             return;
         }
 
-        this.equipableData = equipableData;
-        
-        equipableAnimator.runtimeAnimatorController = equipableData.EquipableAnimatorController;
+        if(equipableData.EquipableAnimatorController != null)
+        {
+            gameObject.SetActive(true);
+            transform.localPosition = equipableData.EquipablePosition;
+            equipableAnimator.runtimeAnimatorController = equipableData.EquipableAnimatorController;
+        }
+        else
+            gameObject.SetActive(false);
+
     }
 
     public void SetAnimationState(Vector2 movementDirection)
     {
+        if (!gameObject.activeInHierarchy)
+            return;
+
         equipableAnimator.SetBool("IsMoving", movementDirection.x != 0 || movementDirection.y != 0);
 
         equipableAnimator.SetFloat("MoveX", movementDirection.x);
