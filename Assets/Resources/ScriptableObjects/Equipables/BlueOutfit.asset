@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f124812e1f27d84595cab68860ac0d8, type: 3}
+  m_Name: BlueOutfit
+  m_EditorClassIdentifier: 
+  equipableType: 1
+  equipablePreviewImage: {fileID: 116015126, guid: 1bac85d5803e77249921f05aab4c7a01, type: 3}
+  equipableAnimatorController: {fileID: 9100000, guid: 2f87feae486d19d4897ca93404302f38, type: 2}
+  equipableName: Blue Outfit
+  equipablePrice: 60

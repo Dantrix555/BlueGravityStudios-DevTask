@@ -1240,6 +1240,7 @@ GameObject:
   - component: {fileID: 276796273}
   - component: {fileID: 276796275}
   - component: {fileID: 276796274}
+  - component: {fileID: 276796276}
   m_Layer: 0
   m_Name: Hat
   m_TagString: Untagged
@@ -1272,7 +1273,7 @@ Animator:
   m_GameObject: {fileID: 276796272}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0555de99644b1924aafee2768f56009e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3e0ab9c3120d3ea42ad1940130ae123f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1334,6 +1335,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &276796276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276796272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78dabd63e2371d5469f46db57b554199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipableAnimator: {fileID: 276796274}
+  equipableData: {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
 --- !u!1 &293098893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +1681,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 333427814}
+  - component: {fileID: 333427815}
+  - component: {fileID: 333427816}
+  - component: {fileID: 333427817}
   m_Layer: 0
   m_Name: HumanCharacter
   m_TagString: Untagged
@@ -1689,6 +1707,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &333427815
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333427813}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &333427816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333427813}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0023396313, y: 0.050521553}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.63156694, y: 1.8959118}
+  m_EdgeRadius: 0
+--- !u!114 &333427817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333427813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a86dd37fb05d04e8d1280bf0ee378f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidboby: {fileID: 333427815}
+  animator: {fileID: 1602890357}
+  speed: 5
+  equipableHat: {fileID: 276796276}
+  equipableHair: {fileID: 2121100360}
+  equipableOutfit: {fileID: 1816085324}
 --- !u!1 &340699424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,7 +3237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664106527}
   - component: {fileID: 664106526}
-  - component: {fileID: 664106525}
+  - component: {fileID: 664106528}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3162,25 +3245,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &664106525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664106524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &664106526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3211,6 +3275,34 @@ Transform:
   m_Father: {fileID: 533675515}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &664106528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664106524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: 94fdb558f94e6a54cb271b76d0cb05f0, type: 3}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: 8828822077974846788, guid: 94fdb558f94e6a54cb271b76d0cb05f0, type: 3}
+  m_SubmitAction: {fileID: 2581950263723016028, guid: 94fdb558f94e6a54cb271b76d0cb05f0, type: 3}
+  m_CancelAction: {fileID: 5074943555234295864, guid: 94fdb558f94e6a54cb271b76d0cb05f0, type: 3}
+  m_LeftClickAction: {fileID: -9077535412628906993, guid: 94fdb558f94e6a54cb271b76d0cb05f0, type: 3}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_TrackedDevicePositionAction: {fileID: 0}
+  m_TrackedDeviceOrientationAction: {fileID: 0}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!1 &668356950
 GameObject:
   m_ObjectHideFlags: 0
@@ -8639,6 +8731,7 @@ GameObject:
   - component: {fileID: 1816085321}
   - component: {fileID: 1816085323}
   - component: {fileID: 1816085322}
+  - component: {fileID: 1816085324}
   m_Layer: 0
   m_Name: Outfit
   m_TagString: Untagged
@@ -8671,7 +8764,7 @@ Animator:
   m_GameObject: {fileID: 1816085320}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e342ef638ffb3824aa86fedd35a35289, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2f87feae486d19d4897ca93404302f38, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8733,6 +8826,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1816085324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816085320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78dabd63e2371d5469f46db57b554199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipableAnimator: {fileID: 1816085322}
+  equipableData: {fileID: 11400000, guid: d28c28dd70084e5478603cda9d67d8b1, type: 2}
 --- !u!1 &1842191342
 GameObject:
   m_ObjectHideFlags: 0
@@ -10425,6 +10532,7 @@ GameObject:
   - component: {fileID: 2121100357}
   - component: {fileID: 2121100359}
   - component: {fileID: 2121100358}
+  - component: {fileID: 2121100360}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -10457,7 +10565,7 @@ Animator:
   m_GameObject: {fileID: 2121100356}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 17584275e110eb344af493f6b76236a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0ab0e9c5d3bf9ff4aa156f71ddd3f416, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10519,6 +10627,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2121100360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121100356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78dabd63e2371d5469f46db57b554199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipableAnimator: {fileID: 2121100358}
+  equipableData: {fileID: 11400000, guid: 7e716ce9e144973449ab44f232681fa5, type: 2}
 --- !u!1 &2122832292
 GameObject:
   m_ObjectHideFlags: 0

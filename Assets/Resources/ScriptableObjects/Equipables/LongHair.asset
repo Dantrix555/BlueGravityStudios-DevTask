@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f124812e1f27d84595cab68860ac0d8, type: 3}
+  m_Name: LongHair
+  m_EditorClassIdentifier: 
+  equipableType: 2
+  equipablePreviewImage: {fileID: 948596328, guid: f7e2f5792fbf29c42b13d43fc2c6bf11, type: 3}
+  equipableAnimatorController: {fileID: 9100000, guid: 0ab0e9c5d3bf9ff4aa156f71ddd3f416, type: 2}
+  equipableName: Long Haircut
+  equipablePrice: 20
