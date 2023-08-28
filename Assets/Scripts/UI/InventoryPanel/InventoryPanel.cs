@@ -29,11 +29,14 @@ public class InventoryPanel : MonoBehaviour, IPanel
     private SOEquipableData cachedEquipedHat;
     private SOEquipableData cachedEquipedOutfit;
 
+    private ICanvasController cachedCanvasController;
+    public ICanvasController CanvasController => cachedCanvasController;
+
     #endregion
 
     #region IPanel implementation methods
 
-    public void SetupPanel()
+    public void SetupPanel(ICanvasController canvasReference)
     {
         outfitsButton.onClick.AddListener(() => { OnSelectedItemType(EquipableType.Outfit); });
         hatsButton.onClick.AddListener(() => { OnSelectedItemType(EquipableType.Hat); });
@@ -44,6 +47,8 @@ public class InventoryPanel : MonoBehaviour, IPanel
         ResetItemDescription();
 
         availableButtons.ForEach(button => button.SetupButton(OnItemSet));
+
+        cachedCanvasController = canvasReference;
     }
 
     public void ClosePanel()
@@ -64,6 +69,8 @@ public class InventoryPanel : MonoBehaviour, IPanel
         cachedEquipedOutfit = charactersInstaller.GetEquipableData(EquipableType.Outfit);
         availableButtons.ForEach(button => button.gameObject.SetActive(false));
         gameObject.SetActive(true);
+
+        cachedCanvasController.SetupEventSystem(outfitsButton.gameObject);
     }
 
     #endregion

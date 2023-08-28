@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CanvasController : IInstaller
+public class CanvasController : IInstaller, ICanvasController
 {
     #region Fields and properties
 
@@ -73,12 +73,16 @@ public class CanvasController : IInstaller
 
     private void SetupPanels()
     {
-        chatPanel.SetupPanel();
-        buyPanel.SetupPanel();
-        inventoryPanel.SetupPanel();
+        chatPanel.SetupPanel(this);
+        buyPanel.SetupPanel(this);
+        inventoryPanel.SetupPanel(this);
     }
 
-    private void SetupEventSystem(GameObject selectionGameObject)
+    #endregion
+
+    #region ICanvasController implementation methods
+
+    public void SetupEventSystem(GameObject selectionGameObject)
     {
         eventSystem = EventSystem.current;
         EventSystem.current.sendNavigationEvents = true;

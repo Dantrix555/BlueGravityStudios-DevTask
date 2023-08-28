@@ -17,17 +17,22 @@ public class ChatPanelController : MonoBehaviour, IPanel
     private SOCharacterDialog actualDialog;
     private int actualDialogIndex;
 
+    private ICanvasController cachedCanvasController;
+    public ICanvasController CanvasController => cachedCanvasController;
+
     #endregion
 
     #region IPanel Implemented Methods
 
-    public void SetupPanel()
+    public void SetupPanel(ICanvasController canvasReference)
     {
         chatText.text = string.Empty;
         nextButton.onClick.AddListener(OnNextButton);
         gameObject.SetActive(false);
 
         gameStateController = ServiceLocator.Instance.GetService<GameStateController>();
+
+        cachedCanvasController = canvasReference;
     }
 
     public void ClosePanel()
@@ -46,6 +51,8 @@ public class ChatPanelController : MonoBehaviour, IPanel
         actualDialogIndex = 0;
         OnNextButton();
         gameObject.SetActive(true);
+
+        cachedCanvasController.SetupEventSystem(nextButton.gameObject);
     }
 
     #endregion

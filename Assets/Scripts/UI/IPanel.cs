@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public interface IPanel
 {
-    public void SetupPanel();
+    public ICanvasController CanvasController { get; }
+
+    public void SetupPanel(ICanvasController canvasReference);
     public void ClosePanel();
 }

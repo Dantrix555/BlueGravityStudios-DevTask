@@ -31,11 +31,14 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
     SOEquipableData cachedEquipableData;
     private bool playerIsBuying;
 
+    private ICanvasController cachedCanvasController;
+    public ICanvasController CanvasController => cachedCanvasController;
+
     #endregion
 
     #region IPanel Implemented Methods
 
-    public void SetupPanel()
+    public void SetupPanel(ICanvasController canvasReference)
     {
         itemsView.SetupItemsView(OnSelectedItem);
         confirmationSubpanel.SetupConfirmationSubpanel(OnDeclineConfirmation, OnAceptedConfirmation);
@@ -44,6 +47,8 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
         sellButton.onClick.AddListener(() => { OnBuySelected(false); });
         exitButton.onClick.AddListener(OnExitSelected);
         gameObject.SetActive(false);
+
+        cachedCanvasController = canvasReference;
     }
 
     public void ClosePanel()
@@ -63,6 +68,8 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
 
         itemsView.gameObject.SetActive(false);
         confirmationSubpanel.gameObject.SetActive(false);
+
+        cachedCanvasController.SetupEventSystem(buyButton.gameObject);
     }
 
     #endregion

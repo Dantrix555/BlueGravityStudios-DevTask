@@ -18,4 +18,4 @@ MonoBehaviour:
   characterInventory: {fileID: 11400000, guid: 566a56c331f09dc49b2fe60e37f0631b, type: 2}
   speed: 0
   defaultDialog: {fileID: 11400000, guid: 50e2c806de77be64fbc4eda356bf97cb, type: 2}
-  facingVector: {x: -1, y: 0}
+  facingVector: {x: 0, y: -1}
