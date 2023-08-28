@@ -50,6 +50,7 @@ public class InventoryPanel : MonoBehaviour, IPanel
     {
         ResetItemDescription();
         gameObject.SetActive(false);
+        ServiceLocator.Instance.GetService<GameStateController>().actualGameState = GameState.Playing;
     }
 
     #endregion

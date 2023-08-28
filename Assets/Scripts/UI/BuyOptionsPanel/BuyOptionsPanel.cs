@@ -81,6 +81,7 @@ public class BuyOptionsPanel : MonoBehaviour, IPanel
         itemsView.gameObject.SetActive(false);
         confirmationSubpanel.gameObject.SetActive(false);
         gameObject.SetActive(false);
+        ServiceLocator.Instance.GetService<GameStateController>().actualGameState = GameState.Playing;
     }
 
     private void OnSelectedItem(SOEquipableData equipableData)

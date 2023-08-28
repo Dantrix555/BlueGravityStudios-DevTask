@@ -14,6 +14,7 @@ public class CanvasController : IInstaller
     private InventoryPanel inventoryPanel;
 
     private EventSystem eventSystem;
+    private GameStateController gameStateController;
     private bool canvasControllerIsInstalled = false;
 
     #endregion
@@ -24,6 +25,8 @@ public class CanvasController : IInstaller
     {
         if (canvasControllerIsInstalled)
             return;
+
+        gameStateController = ServiceLocator.Instance.GetService<GameStateController>();
 
         canvasControllerIsInstalled = true;
         serviceLocator.RegisterService(this);
@@ -39,10 +42,12 @@ public class CanvasController : IInstaller
         chatPanel.ShowPanel(npcCharacterData);
         buyPanel.ClosePanel();
         inventoryPanel.ClosePanel();
+        gameStateController.actualGameState = GameState.Chatting;
     }
 
     public void ShowBuyingPanel(SOInventory sellerInventory, bool isHairCut)
     {
+        gameStateController.actualGameState = GameState.Buying;
         buyPanel.ShowPanel(sellerInventory, isHairCut);
         chatPanel.ClosePanel();
         inventoryPanel.ClosePanel();

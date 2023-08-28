@@ -11,6 +11,8 @@ public class ChatPanelController : MonoBehaviour, IPanel
     [SerializeField]
     private Button nextButton;
 
+    private GameStateController gameStateController;
+
     private SO_NPC_Data npcCharacterData;
     private SOCharacterDialog actualDialog;
     private int actualDialogIndex;
@@ -24,6 +26,8 @@ public class ChatPanelController : MonoBehaviour, IPanel
         chatText.text = string.Empty;
         nextButton.onClick.AddListener(OnNextButton);
         gameObject.SetActive(false);
+
+        gameStateController = ServiceLocator.Instance.GetService<GameStateController>();
     }
 
     public void ClosePanel()
@@ -50,7 +54,7 @@ public class ChatPanelController : MonoBehaviour, IPanel
 
     private void OnNextButton()
     {
-        if(actualDialogIndex < actualDialog.Dialogs.Length - 1)
+        if(actualDialogIndex < actualDialog.Dialogs.Length)
         {
             chatText.text = string.Concat(actualDialog.Dialogs[actualDialogIndex].characterTalking, ": ", actualDialog.Dialogs[actualDialogIndex].dialogText);
             actualDialogIndex++;
@@ -58,7 +62,12 @@ public class ChatPanelController : MonoBehaviour, IPanel
         else
         {
             if (actualDialog.ActionAfterDialog == ActionAfterDialog.ShowBuyingOptions)
+            {
                 ServiceLocator.Instance.GetService<CanvasController>().ShowBuyingPanel(npcCharacterData.CharacterInventory, npcCharacterData.CharacterInventory.IsFullyHaircutInventory);
+                gameStateController.actualGameState = GameState.Buying;
+            }
+            else
+                gameStateController.actualGameState = GameState.Playing;
 
             ClosePanel();
         }

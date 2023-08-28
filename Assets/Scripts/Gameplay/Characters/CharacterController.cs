@@ -8,6 +8,7 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
     private Collider2D[] collidersInFrontDetectedList = new Collider2D[1];
     private int collidersInFrontDetected = 0;
 
+    private GameStateController gameStateController;
     private MainCharacterData mainCharacterData;
     private PlayerInputs playerInputs;
     private IInteractable nearestInteractable;
@@ -25,6 +26,7 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
     private void Start()
     {
         mainCharacterData = (MainCharacterData)characterData;
+        gameStateController = ServiceLocator.Instance.GetService<GameStateController>();
     }
 
     private void OnEnable()
@@ -39,6 +41,9 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
 
     private void FixedUpdate()
     {
+        if (gameStateController.actualGameState != GameState.Playing)
+            return;
+
         MoveCharacter();
         DetectInteractablesInFront(actualCharacterDirection);
     }
@@ -49,7 +54,7 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (nearestInteractable != null)
+        if (nearestInteractable != null && gameStateController.actualGameState == GameState.Playing)
             nearestInteractable.TriggerInteraction();
     }
 
@@ -60,8 +65,16 @@ public class CharacterController : BaseCharacter, PlayerInputs.IPlayerMapActions
 
     public void OnInventory(InputAction.CallbackContext context)
     {
-        //Freeze game state and show inventory, if inventory opened, close inventory
-        ServiceLocator.Instance.GetService<CanvasController>().ShowInventory(characterData.CharacterInventory);
+        if(gameStateController.actualGameState == GameState.Playing)
+        {
+            ServiceLocator.Instance.GetService<CanvasController>().ShowInventory(characterData.CharacterInventory);
+            gameStateController.actualGameState = GameState.Inventory;
+        }
+        else if(gameStateController.actualGameState == GameState.Inventory)
+        {
+            ServiceLocator.Instance.GetService<CanvasController>().HideInventory();
+            gameStateController.actualGameState = GameState.Playing;
+        }
     }
     #endregion
 
