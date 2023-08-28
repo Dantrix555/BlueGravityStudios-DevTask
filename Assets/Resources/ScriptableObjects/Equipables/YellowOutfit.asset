@@ -15,7 +15,7 @@ MonoBehaviour:
   equipableType: 1
   equipablePreviewImage: {fileID: 116015126, guid: 1bac85d5803e77249921f05aab4c7a01, type: 3}
   equipableAnimatorController: {fileID: 9100000, guid: 2f87feae486d19d4897ca93404302f38, type: 2}
-  equipablePosition: {x: 0, y: -0.342, z: 0}
+  equipablePosition: {x: 0, y: -0.223, z: 0}
   equipableName: Yellow Outfit
   equipableDescription: This outfit has style, some people say that can attract money
   equipablePrice: 70

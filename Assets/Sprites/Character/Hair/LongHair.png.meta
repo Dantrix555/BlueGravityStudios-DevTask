@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1470,7 +1470,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_4har_bob1_v01_42: -891282410
+      char_a_p1_4har_bob1_v01_8: -994313557
       char_a_p1_4har_bob1_v01_16: -1674469215
       char_a_p1_4har_bob1_v01_21: -1073461615
       char_a_p1_4har_bob1_v01_50: 256218990
@@ -1533,7 +1533,7 @@ TextureImporter:
       char_a_p1_4har_bob1_v01_7: 1221790659
       char_a_p1_4har_bob1_v01_39: 1997492787
       char_a_p1_4har_bob1_v01_18: 552445605
-      char_a_p1_4har_bob1_v01_8: -994313557
+      char_a_p1_4har_bob1_v01_42: -891282410
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

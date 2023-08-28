@@ -15,7 +15,7 @@ MonoBehaviour:
   equipableType: 0
   equipablePreviewImage: {fileID: -1943815050, guid: 3d4f287649ba56145a3f6c630d22ea67, type: 3}
   equipableAnimatorController: {fileID: 9100000, guid: 0555de99644b1924aafee2768f56009e, type: 2}
-  equipablePosition: {x: -0.03, y: 1.031, z: 0}
+  equipablePosition: {x: -0.001, y: 0.716, z: 0}
   equipableName: Magician Hat
   equipableDescription: This is a magic hat that has awesome spells
   equipablePrice: 80

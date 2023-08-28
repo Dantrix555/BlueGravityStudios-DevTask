@@ -46481,11 +46481,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b8ec902d6a03dd42b5df970f3be1cf0, type: 2}
   - {fileID: 11400000, guid: b851d51c7d6bfb243bd889c076e8ec3c, type: 2}
   - {fileID: 11400000, guid: b2905b4be0259674f82b345a84b1c26e, type: 2}
-  - {fileID: 11400000, guid: 46a6471859cddf548a27410cd5649498, type: 2}
-  - {fileID: 11400000, guid: 11e76a97c55499f4daa957e0e21e26fd, type: 2}
   - {fileID: 11400000, guid: 7ba09b879c693cb42935e4239614a92e, type: 2}
   - {fileID: 11400000, guid: 5b1f1e2b5efb3a54bb455e465e4ba95d, type: 2}
+  - {fileID: 11400000, guid: 46a6471859cddf548a27410cd5649498, type: 2}
   - {fileID: 11400000, guid: d47671e9b7e34264b8c85469ce62f338, type: 2}
+  - {fileID: 11400000, guid: 11e76a97c55499f4daa957e0e21e26fd, type: 2}
   - {fileID: 11400000, guid: fae135b735b104c4e85b74974955fcf5, type: 2}
   playerSpawnTransform: {fileID: 1282514936}
   npcsSpawnTransform:
