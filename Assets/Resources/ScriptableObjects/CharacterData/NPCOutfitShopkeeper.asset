@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipableHatData: {fileID: 11400000, guid: abd969a2b77d270438c490df9885b035, type: 2}
   equipableHairData: {fileID: 11400000, guid: 7e716ce9e144973449ab44f232681fa5, type: 2}
-  equipableOutfitData: {fileID: 11400000, guid: 3d0c07711f89b1c48990d8c83a4fc2f6, type: 2}
+  equipableOutfitData: {fileID: 11400000, guid: 231c48631c951fd4d9170128feee32bd, type: 2}
   characterInventory: {fileID: 11400000, guid: 845fe0e64fd056f409827bf8558d52cd, type: 2}
   speed: 0
   defaultDialog: {fileID: 11400000, guid: 6ea20babf23b4d743aa23c36c476bf08, type: 2}

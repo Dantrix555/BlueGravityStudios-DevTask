@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class CharactersInstaller : IInstaller
 {
@@ -12,6 +13,7 @@ public class CharactersInstaller : IInstaller
     [SerializeField]
     private BaseCharacter npcPrefab;
 
+    [Space(5)]
     [Header("Characters Data")]
     [SerializeField]
     private SOCharacterData mainCharacterData;
@@ -24,6 +26,11 @@ public class CharactersInstaller : IInstaller
     private Transform playerSpawnTransform;
     [SerializeField]
     private Transform[] npcsSpawnTransform;
+
+    [Space(5)]
+    [Header("Camera References")]
+    [SerializeField]
+    private CinemachineVirtualCamera cinemachineCamera;
 
     public SOCharacterData soCharacterData => mainCharacterData;
 
@@ -84,6 +91,8 @@ public class CharactersInstaller : IInstaller
     private void SpawnCharacters()
     {
         playerController = BuildCharacter(playerSpawnTransform, mainCharacterData, characterPrefab);
+
+        cinemachineCamera.Follow = playerController.transform;
 
         npcControllersList = new List<BaseCharacter>();
 

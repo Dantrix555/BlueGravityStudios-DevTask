@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public enum CharacterTalking { Player, ShopKeeper }
+public enum CharacterTalking { Player, ShopKeeper, Citizen }
 
 public enum ActionAfterDialog { None, ShowBuyingOptions }
 
