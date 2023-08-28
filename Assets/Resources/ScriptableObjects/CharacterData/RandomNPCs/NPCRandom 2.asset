@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94d047d5b54fd64398749b383666fe7, type: 3}
+  m_Name: NPCRandom 2
+  m_EditorClassIdentifier: 
+  equipableHatData: {fileID: 11400000, guid: 6b98d6a3426d8414bb722c2c0df06e3d, type: 2}
+  equipableHairData: {fileID: 11400000, guid: 446d98bf9d03d594ca3fc2faaac5c4d1, type: 2}
+  equipableOutfitData: {fileID: 11400000, guid: 231c48631c951fd4d9170128feee32bd, type: 2}
+  characterInventory: {fileID: 0}
+  speed: 0
+  defaultDialog: {fileID: 11400000, guid: 58e93c39dd50a104e94b56b2572382ae, type: 2}
+  facingVector: {x: 0, y: -1}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848141381f7c7be48bf546ab439577c5, type: 3}
+  m_Name: NPCRandomDialog
+  m_EditorClassIdentifier: 
+  dialogs:
+  - dialogText: Hi, looks like you want to change your outfit
+    characterTalking: 2
+  - dialogText: Sounds interesting
+    characterTalking: 0
+  - dialogText: Why don't you go to the castle, there is an outfit shopkeeper
+    characterTalking: 2
+  actionAfterDialog: 0
